@@ -1,0 +1,56 @@
+body {
+    margin: 0;
+}
+
+.header-content , ul , a  {
+    display: flex;
+    justify-content:space-around;
+    list-style: none;
+    gap: 90px;
+    background-color: rgb(71, 71, 83);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: antiquewhite;
+    text-decoration: none;
+}
+
+a:visited {
+    color:antiquewhite;
+}
+a:hover {
+    color: yellow;
+}
+
+.title {
+    align-self: center;
+}
+
+.about-me {
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(71, 71, 83);
+    color: antiquewhite;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    display: flex;
+    justify-content: center;
+    padding: 50px;
+    border-style: groove;
+    padding-left: 40px;
+}
+
+.title-portfolio {
+    font-size: 30px;
+    max-width: 300px;
+}
+.para {
+    max-width: 300px;
+    align-items:start;
+    font-weight: 200;
+   
+   
+}
+
+.title-portfolio , .para {
+    padding-left: 90px;
+    
+
+}
