@@ -76,7 +76,8 @@ a:hover {
     background-color: rgb(22, 19, 33);
     opacity: .5;
     margin-top: -300px;
-    filter: blur(3px);
+    filter: blur(2px);
+    border-style: ridge;
     z-index: 1;
   
   
@@ -138,12 +139,13 @@ h2 {
 
 .empty.two {
     background: url(../images/diluc.png) no-repeat center / cover;
+    box-shadow: 16px 16px 5px black;
     
 }
 
 .empty.one {
     background:url(../images/Design-fox.png) no-repeat center top / cover;
-   
+    box-shadow: 16px 16px 5px black;
 }
 
 .word-one , .word-two , .word-three , .word-four {
@@ -153,10 +155,12 @@ h2 {
 
 .empty.three {
     background:url(../images/Hydra-chainsaw.png) no-repeat center / cover; 
+    box-shadow: 16px 16px 5px black;
 }
 
 .empty.four {
     background:url(../images/Hu-Tao.png) no-repeat center / cover;
+    box-shadow: 16px 16px 5px black;
 }
 
 
@@ -166,7 +170,7 @@ h2 {
     background:url(../images/gray-hydra.png) no-repeat center / cover;
     background-attachment: fixed;
     height: 500px;
-    color: rgb(247, 241, 255);
+    color: antiquewhite;
     text-align: center;
     font-weight: 700;
     padding-top: 60px;
@@ -178,7 +182,7 @@ h2 {
 .logo-list {
     display: flex;
     justify-content: center;
-    padding-top: 100px;
+    padding-top: 70px;
     gap: 200px;
     list-style: none;
     
@@ -186,7 +190,6 @@ h2 {
 .logo {
     height: 100px;
     width: 100px;
-    background-color: aquamarine;
     border-radius: 10px;
     z-index: 3;
     
@@ -194,6 +197,7 @@ h2 {
 
 .clipstudio {
     background:url(../images/Clip_Studio_Paint_app_logo.png) no-repeat center / cover;
+   
     
 }
 
@@ -220,19 +224,32 @@ h2 {
    
 }
 
-.quote , .logo-list , .quote-text{
-    z-index: 2px;
-   
+
+.quote , .logo-list , .quote-text {
+    z-index: 4;
+    position:sticky;
+
+
+}
+
+.quote {
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-weight: 800s;
 }
 .transparent-two {
-    filter: blur(4px);
-    width: 1450px;
+    filter: blur(2px);
+    width: 1500px;
     height: 500px;
-    background: rgb(36, 32, 32);
+    background: rgb(31, 32, 36);
     margin-top: -500px;
-    margin-left: 20px;
-    opacity: .5;
-    z-index: 1px;
+    margin-left: 160px;
+    opacity: .7;
+    z-index: 1;
+    position: relative;
+    border-style: groove;
 }
 
 .form-bg {
@@ -286,13 +303,12 @@ input {
 }
 
 .footer-bg {
-    background-color: black;
+    background-color: rgb(34, 34, 40);
     color: antiquewhite;
     height:100px;
     display: flex;
     justify-content: center;
     align-items: center;
-
 }
 
 
